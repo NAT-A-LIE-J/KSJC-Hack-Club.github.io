@@ -3364,6 +3364,14 @@ input, select, textarea {
 
 			background-size: auto,							cover;
 		}
+.main.style22 {
+			background-color: #ffd359;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed, fixed;
+			background-image: url("images/bggradient.jpg"), url("../../images/bggradient.jpg");
+
+			background-size: auto,							cover;
+		}
 
 			.main.style2 a {
 				border-bottom-color: rgba(255, 255, 255, 0.5);
