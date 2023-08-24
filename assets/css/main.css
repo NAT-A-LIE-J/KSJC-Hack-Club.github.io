@@ -4068,3 +4068,10 @@ input, select, textarea {
     height: auto;
 
   }
+
+
+hr {
+  height:5px;
+  border-width:0;
+  background-color:#00A4BD;
+}
