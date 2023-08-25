@@ -68,10 +68,61 @@
               </p> (the child miners are working hard behind the screen to bring the games to you!) </p>
 </h3> 
 						</div>
-            <!-- Image above Who We Are section-->
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/hackathon.jpeg" alt="" /> <br> <figcaption>Image Courtesy of <a href="https://education.github.com/pack">Github Student Developer Pack</a>  found in <a href="resource.html"> Resources </a> </figcaption></span>
-						</div>
+            <!-- 2048 game --> 
+						<hr>
+						<head>
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,400,800" rel="stylesheet">
+<!-- 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
+
+</head>
+
+<body>
+  <div class="game">
+    <div class="head">
+      <div class="a">2048 <button class="info" onClick='info()'>i</button> <button id="repeat" class="info repeat" onClick='reset()'>↻</button></div>
+      <div class="score">Score<br/><span id="value"></span></div>
+    </div>
+    <div class="description" id="description">
+    How to play:<br/><br/>
+    Use your arrow-keys to slide the tiles. <br/>
+    Two tiles with the same value in line can be merged. The goal is to merge the tiles and get the 2048 tile.<br/><br/>
+    The score is a sum of the merged tiles.<br><br/>
+    <span>_______________________________</span><br/><br/>
+    Made by Fabian Richter 01/2017
+  </div>
+    <div class="field">
+      
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+    
+  </div>
+  <div class='' id='status'>
+  </div>
+</body>
+						<hr>
             <!-- Scroll Buttons -->
             <ul class="actions special">
 						<li><a href="signup.html" class="button">Want to make / put your own games in?</a></li>
