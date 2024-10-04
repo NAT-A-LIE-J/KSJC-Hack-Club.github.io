@@ -4282,3 +4282,9 @@ div > div > div > div {
 	float: right;
 	
 }
+
+#hackDesc{
+	position: relative;
+	float: left;
+	
+}
