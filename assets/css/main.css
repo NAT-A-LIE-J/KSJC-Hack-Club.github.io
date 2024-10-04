@@ -4275,3 +4275,10 @@ div > div > div > div {
 .lose {
   background-color: #7D3C34;
 }
+
+/* hoping this works lmao */
+#donateForm {
+	position: relative;
+	float: right;
+	
+}
